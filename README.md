@@ -57,14 +57,14 @@ Elle contient :
 ---
 
 ## 📷 Capture d’écran
-Ajoute ici une image de ton projet :
 
-![Todo App](screenshot.png)
+
+![Todo App](TODO LIST.png)
 
 ---
 
-## 🌐 Lien du projet (si GitHub Pages est activé)
-https://ton-utilisateur.github.io/todo-app/
+## 🌐 Lien du projet 
+https://elallaouisaadia.github.io/TODO-LIST_Saadia_Elallaoui/
 
 ---
 
