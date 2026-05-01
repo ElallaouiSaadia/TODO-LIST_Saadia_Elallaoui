@@ -1,0 +1,97 @@
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+:root {
+  --bg-color: #f5efe6;        /* beige */
+  --container-color: #ffffff;
+  --text-color: #333;
+  --primary-color: #c8a2c8;   /* light purple */
+  --task-bg: #eee;
+}
+
+#taskInput{
+  margin: 2px;
+  border-radius: 5px;
+}
+#addBtn{
+  margin: 2px;
+}
+
+
+.dark-mode {
+  --bg-color: #2d2433;
+  --container-color: #3a2f42;
+  --text-color: #f5f5f5;
+  --primary-color: #d8b4e2;
+  --task-bg: #4a3b55;
+}
+
+#themeToggle {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+.container {
+  background: var(--container-color);
+  padding: 20px;
+  border-radius: 10px;
+  width: 350px;
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background:var(--primary-color);
+  color: white;
+  border-radius: 8px;
+  transition: 0.2s;
+  border:none;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.filters {
+  margin: 10px 0;
+  text-align: center;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  background: var(--task-bg);
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+li button {
+  border-radius:6px;
+  padding: 5px 8px;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
